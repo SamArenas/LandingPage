@@ -1,20 +1,23 @@
 body {
     margin: 0;
-    
+}
+
+.navbar,
+.main{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 150px;
 }
 
 .navbar{  
-    background-color: #1F2937;
-    color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 150px;
     min-width: 400px;
 }
 .navbar a {  
-    color:white;
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .links{
@@ -24,5 +27,35 @@ body {
 
 .header{
     font-size: 24px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.text button{
     color: #F9FAF8;
+    align-self: flex-start;
+    background-color: #3882F6;
+    border:none;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+    gap:40px;
+}
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
 }
