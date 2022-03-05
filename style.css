@@ -4,6 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-width: 800px;
 }
 
 .navbar,
@@ -131,5 +132,33 @@ body {
 .quoteText .author{
     align-self: flex-end;
     font-weight: bold;
+}
 
+
+
+.callToAction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.signUp{
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+.signUp button{
+    color: white;
+    background-color: #3882F6;
+    align-self: flex-start;
+    border:solid white;
+    font-size: 18px;
+    padding: 10px 40px;
+    border-radius: 10px;
 }
