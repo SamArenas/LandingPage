@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     display: flex;
@@ -56,6 +58,7 @@ body {
     align-items: center;
     padding-bottom: 150px;
     gap:40px;
+    height:100vh;
 }
 .hero{
     font-size: 48px;
@@ -69,8 +72,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 40px;
-    flex:1;
+    height:100vh;
 }
 
 .information h4{
@@ -104,4 +108,28 @@ body {
 
 .quote{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 0px 150px;
+    height:100vh;
+}
+
+.quoteText{
+    display: flex;
+    flex-direction: column;
+    color:black;
+}
+
+.quoteText p{
+    font-size: 36px;
+    color: #1f2937
+
+}
+
+.quoteText .author{
+    align-self: flex-end;
+    font-weight: bold;
+
 }
